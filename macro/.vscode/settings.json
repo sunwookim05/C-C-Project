@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "windows.h": "c",
+        "winspool.h": "c",
+        "ole.h": "c",
+        "winnetwk.h": "c",
+        "winreg.h": "c"
+    }
+}

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{4d541f91-184e-48a9-ab4e-2d828baabe5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Macro">
+      <UniqueIdentifier>{81a01c29-6af9-4a0c-bcf3-8eca115537c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{6349a0f2-53d7-4d8d-9623-2eb3f481a0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppIni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="key_macro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDelay.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogKeyboard.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMacroEdit.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMacroRec.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMouse.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="key_macroDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="key_hook.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="macro_def.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="macro_str.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual_key.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperLink.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBoxEx.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppIni.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="key_macro.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDelay.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogKeyboard.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMacroEdit.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMacroRec.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogMouse.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="key_macroDlg.h">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="key_hook.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="macro_def.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual_key.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperLink.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBoxEx.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\key_macro.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\key_macro.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="key_macro.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\key_macro.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

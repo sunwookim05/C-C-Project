@@ -1,0 +1,10 @@
+typedef enum{false, true} boolean;
+typedef char *String;
+typedef char i8;
+typedef short i16;
+typedef int i32;
+typedef long long i64;
+typedef unsigned char uint8_t;
+typedef unsigned short uint16_t;
+typedef unsigned int uint32_t;
+typedef unsigned long long uint64_t;
