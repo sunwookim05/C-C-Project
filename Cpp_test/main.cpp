@@ -1,6 +1,7 @@
 #include <iostream>
+#include <stdio.h>
 
-int mian(void){
+int main(void){
 
     std::cout << "Hello World!" << std::endl;
 
