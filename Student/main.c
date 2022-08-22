@@ -28,18 +28,18 @@ int main(void){
     uint8_t id = 0;
     String name = malloc(sizeof(char) * 100);
     uint8_t age = 0;
-    System.out.printf("How many students do you want to create? : ");
+    System.out.print("How many students do you want to create? : ");
     scanf("%d", &i);
 
     Student* students = malloc(sizeof(Student) * i);
 
     for(uint32_t j = 0; j < i; j++){
         System.out.println("Student %d", j + 1);
-        System.out.printf("ID : ");
+        System.out.print("ID : ");
         scanf("%d", &id);
-        System.out.printf("Name : ");
+        System.out.print("Name : ");
         scanf("%s", name);
-        System.out.printf("Age : ");
+        System.out.print("Age : ");
         scanf("%d", &age);
         students[j] = *new_Student(id, name, age);
         System.out.println("");
